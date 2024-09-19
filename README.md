@@ -88,3 +88,37 @@ The **SOS Watch** is a wearable device specifically designed for women’s safet
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Shield_Her.git
+Navigate to the project directory:
+'''bash
+cd Shield_Her
+Install backend dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Install frontend dependencies:
+bash
+Copy code
+cd frontend
+npm install
+Running the Application
+Start the backend server:
+bash
+Copy code
+flask run
+Start the frontend:
+bash
+Copy code
+cd frontend
+npm start
+🛠 Future Enhancements
+Reflective Orbit Technology: Integration with light-reflection technology to enhance safety at night.
+Advanced Analytics: Deeper analysis of crowd behavior and gender distribution to predict potential threats.
+Enhanced Wearable Features: Adding more features to the SOS Watch such as enhanced GPS tracking and panic alerts.
+🤝 Contributing
+Feel free to fork this repository and contribute. Contributions are what make the open-source community such a fantastic place to learn, inspire, and create.
+
+⚖️ License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📞 Contact
+For more information, please contact our team at [your-email@example.com].
