@@ -88,11 +88,11 @@ The **SOS Watch** is a wearable device specifically designed for women’s safet
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Shield_Her.git
-Navigate to the project directory:
-'''bash
-cd Shield_Her
-Install backend dependencies:
-bash
+2.Navigate to the project directory:
+  ```bash
+    cd Shield_Her
+3.Install backend dependencies:
+``` bash
 Copy code
 pip install -r requirements.txt
 Install frontend dependencies:
