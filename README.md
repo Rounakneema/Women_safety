@@ -96,6 +96,19 @@ The **SOS Watch** is a wearable device specifically designed for women’s safet
 ``` bash
 pip install -r requirements.txt
 ```
+4. Runing Gender Detection :
+   ```bash
+   detect.py --image /path/to/imageorvideo
+   ```
+###Examples:
+![Detecting age and gender girl1](https://github.com/user-attachments/assets/20cfad07-c9c6-46f5-a547-5d14974bb8c8)
+![Detecting age and gender girl2](https://github.com/user-attachments/assets/05898dcb-da15-487d-8f1a-773235c5ef39)
+![Detecting age and gender woman1](https://github.com/user-attachments/assets/bbf88875-b240-4367-b091-0573b201956f)
+![Detecting age and gender man1](https://github.com/user-attachments/assets/4ae474ef-fad2-4090-a919-e60cc4eac63a)
+![Detecting age and gender man2](https://github.com/user-attachments/assets/2ee8ad6b-8032-4dbe-a660-2d05bf2cc4e9)
+![Detecting age and gender kid1](https://github.com/user-attachments/assets/f460da8a-c519-45c0-beb1-f915d395e05e)
+![Detecting age and gender kid2](https://github.com/user-attachments/assets/6cc914c3-bf24-4263-9672-cef94b26e490)
+
 ## 🛠 Future Enhancements
 1. **Reflective Orbit Technology:** Integration with light-reflection technology to enhance safety at night.
 2. **Advanced Analytics:** Deeper analysis of crowd behavior and gender distribution to predict potential threats.
