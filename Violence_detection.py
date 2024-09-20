@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 import time
+import argparse
 
 # Load the trained model for violence detection
 def ld_tf_md(md_pth="my_trained_Violence_model.joblib"):
@@ -16,6 +17,7 @@ def calc_dst(bx1, bx2):
 # Detect if any weapon.
 def dtc_wpn(dtc, cls_nm, wpns=['knife', 'gun']):
     return any(cls_nm[int(dt[5])] in wpns for dt in dtc)
+
 def anlz_hnds(frm, pst_est):
     img_rgb = cv2.cvtColor(frm, cv2.COLOR_BGR2RGB)
     hmn = pst_est.inference(img_rgb)
@@ -31,9 +33,9 @@ def anlz_hnds(frm, pst_est):
 def dsp_lbl(frm, dt_lbl, x1, y1, lbl, colors):
     cv2.putText(frm, dt_lbl, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, colors[lbl], 2)
 
-def mntr_fghts(vdo_pth, md_pth, dst_thr=100, mv_thr=50, emrg_dur=5, show_output=True):
+def mntr_fghts(vdo_pth, dst_thr=100, mv_thr=50, emrg_dur=5, show_output=True):
     cp = cv2.VideoCapture(vdo_pth)
-    md = ld_tf_md(md_pth)
+    md = ld_tf_md()  # Assuming model path is static
     pst_est = "my_trained_Violence_model.joblib"
     
     pr_dtc = []
@@ -112,8 +114,15 @@ def mntr_fghts(vdo_pth, md_pth, dst_thr=100, mv_thr=50, emrg_dur=5, show_output=
     cp.release()
     cv2.destroyAllWindows()
 
-# Main execution
+# Main execution through terminal or compiler
 if __name__ == "__main__":
-    vdo_pth = "fv1.mp4"
-    md_pth = "my_trained_Violence_model.joblib"
-    mntr_fghts(vdo_pth, md_pth, dst_thr=120, mv_thr=70, emrg_dur=8, show_output=True)
+    parser = argparse.ArgumentParser(description="Violence Detection from Video")
+    parser.add_argument('--video', help="Path to the input video", default=None)
+
+    args = parser.parse_args()
+
+    # If video path is provided via terminal, use that, else use default for running via compiler
+    vdo_pth = args.video if args.video else "fv1.mp4"  # Default video path if no argument is provided
+    
+    # Call the main function
+    mntr_fghts(vdo_pth, dst_thr=120, emrg_dur=8, show_output=True)
