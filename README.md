@@ -100,6 +100,10 @@ pip install -r requirements.txt
    ```bash
    detect.py --image /path/to/imageorvideo
    ```
+5. Runing Violence Detection:
+   ```bash
+   python violence_detect.py --video path_to_video.mp4
+   ```
 ### Examples:
 ![Detecting age and gender girl1](https://github.com/user-attachments/assets/20cfad07-c9c6-46f5-a547-5d14974bb8c8)
 ![Detecting age and gender girl2](https://github.com/user-attachments/assets/05898dcb-da15-487d-8f1a-773235c5ef39)
