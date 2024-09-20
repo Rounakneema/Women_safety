@@ -96,15 +96,15 @@ The **SOS Watch** is a wearable device specifically designed for women’s safet
 ``` bash
 pip install -r requirements.txt
 ```
-##🛠 Future Enhancements
-**Reflective Orbit Technology:** Integration with light-reflection technology to enhance safety at night.
-**Advanced Analytics:** Deeper analysis of crowd behavior and gender distribution to predict potential threats.
-**Enhanced Wearable Features:** Adding more features to the SOS Watch such as enhanced GPS tracking and panic alerts.
-##🤝 Contributing
-#Feel free to fork this repository and contribute. Contributions are what make the open-source community such a fantastic place to learn, inspire, and create.
+## 🛠 Future Enhancements
+1. **Reflective Orbit Technology:** Integration with light-reflection technology to enhance safety at night.
+2. **Advanced Analytics:** Deeper analysis of crowd behavior and gender distribution to predict potential threats.
+3. **Enhanced Wearable Features:** Adding more features to the SOS Watch such as enhanced GPS tracking and panic alerts.
+## 🤝 Contributing
+ Feel free to fork this repository and contribute. Contributions are what make the open-source community such a fantastic place to learn, inspire, and create.
 
-##⚖️ License
-#This project is licensed under the MIT License. See the LICENSE file for details.
+## ⚖️ License
+ This project is licensed under the MIT License. See the LICENSE file for details.
 
-##📞 Contact
-#For more information, please contact our team at [neemarounak9171@gmail.com].
+## 📞 Contact
+ For more information, please contact our team at [neemarounak9171@gmail.com].
