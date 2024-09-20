@@ -100,7 +100,7 @@ pip install -r requirements.txt
    ```bash
    detect.py --image /path/to/imageorvideo
    ```
-###Examples:
+### Examples:
 ![Detecting age and gender girl1](https://github.com/user-attachments/assets/20cfad07-c9c6-46f5-a547-5d14974bb8c8)
 ![Detecting age and gender girl2](https://github.com/user-attachments/assets/05898dcb-da15-487d-8f1a-773235c5ef39)
 ![Detecting age and gender woman1](https://github.com/user-attachments/assets/bbf88875-b240-4367-b091-0573b201956f)
