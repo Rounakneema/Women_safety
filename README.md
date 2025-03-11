@@ -4,7 +4,7 @@
 **Team Name**: Shield_Her  
 **Theme**: Miscellaneous - **Women Safety Analytics**  
 **Hackathon**: Smart India Hackathon 2024
-**Team Members**: [Lokesh Patil](https://github.com/lokesh1969) 
+**Team Members**: [Lokesh Patil](https://github.com/lokesh1969) , Pinak Salunke,Chetany Singh Rajput,Om Dhangar,Prakrati Jain 
 
 ## 📜 Overview
 **Shield_Her** is an innovative solution that combines real-time monitoring and advanced analytics to ensure women’s safety in public spaces. The system integrates with existing CCTV infrastructure to provide real-time threat detection, crowd analysis, and alert mechanisms. Additionally, a wearable safety device is designed to offer quick assistance in emergencies.
