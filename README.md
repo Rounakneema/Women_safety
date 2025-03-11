@@ -3,7 +3,7 @@
 **Problem Statement ID**: SIH1605  
 **Team Name**: Shield_Her  
 **Theme**: Miscellaneous - **Women Safety Analytics**  
-**Hackathon**: Smart India Hackathon 2024
+**Hackathon**: Smart India Hackathon 2024                                                                                                 
 **Team Members**: [Lokesh Patil](https://github.com/lokesh1969) , Pinak Salunke,Chetany Singh Rajput,Om Dhangar,Prakrati Jain 
 
 ## 📜 Overview
